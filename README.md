@@ -93,14 +93,10 @@ def sarsa(env,
 
 ## OUTPUT:
 
-### Optimal Policy:
-![image](https://github.com/Aashima02/sarsa-learning/assets/93427086/1f4fdf5c-6142-4194-b408-040fa4fa5716)
+### Optimal policy, optimal value function , success rate for the optimal policy:
+![280444738-32ce39c9-f7f6-4709-9e34-b01490ba97d0](https://github.com/harshavardhini33/sarsa-learning/assets/93427208/9da25fd8-76a6-4d5f-8aac-ada936329129)
 
-### First Visit Monte Carlo Method:
-![image](https://github.com/Aashima02/sarsa-learning/assets/93427086/640e34aa-2f12-4e0d-855d-14a9adc98e8a)
 
-### SARSA Learning Algorithm:
-![image](https://github.com/Aashima02/sarsa-learning/assets/93427086/42a7d093-dd4f-4ba7-b426-3c6d884bf2db)
 
 ### Plot for State Value Function - Monte Carlo:
 
