@@ -54,7 +54,7 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 3. Until performance converges.
 
 ## SARSA LEARNING FUNCTION
-python
+```python
 def sarsa(env,
           gamma=1.0,
           init_alpha=0.5,
@@ -89,7 +89,7 @@ def sarsa(env,
     V = np.max(Q, axis=1)
     pi = lambda s: {s:a for s, a in enumerate(np.argmax(Q, axis=1))}[s]
     return Q, V, pi, Q_track, pi_track
-
+```
 
 ## OUTPUT:
 
